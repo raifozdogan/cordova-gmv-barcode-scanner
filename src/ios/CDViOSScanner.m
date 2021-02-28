@@ -17,12 +17,6 @@
 
 @implementation CDViOSScanner
 
-/*-(CDVPlugin*) initWithWebView:(UIWebView*)theWebView
- {
- self = (CDViOSScanner*)[super initWithWebView:theWebView];
- return self;
- }*/
-
 - (void)pluginInitialize
 {
     _previousStatusBarStyle = -1;
